@@ -1,5 +1,6 @@
 import Graphic from "../src/lib/components/graphics/graphic"
 import Navbar from "../src/blocks/navbar/navbar"
+import { Box } from "@mui/system"
 
 export default function Indicator() {
 
@@ -7,7 +8,16 @@ export default function Indicator() {
         <>
             <Navbar>
                 <h1>Quantidade de pedidos</h1>
-                <Graphic />
+                <Box id='Box-indicator-page' style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    width: '100vw',
+                    height: '70vh'
+                }}>
+
+                    <Graphic />
+                </Box>
             </Navbar>
         </>
     )

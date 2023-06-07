@@ -25,7 +25,7 @@ import ViewListIcon from '@mui/icons-material/ViewList';
 import EqualizerIcon from '@mui/icons-material/Equalizer';
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import HomeIcon from '@mui/icons-material/Home';
-import ButtonMenu from './ButtonMenu';
+import ButtonMenu from './components/ButtonMenu';
 
 const drawerWidth = 240;
 

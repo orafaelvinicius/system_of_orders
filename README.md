@@ -7,5 +7,8 @@ O sistema de pedidos foi construido com NextJS e ReactJS
 
 
 ## Dependências
-Para a construção da UI foi utilizado a biblioteca MUI criada pela META, além da biblioteca alguns trechos foram criados utilizando a Styled-components que facilita a costumização mais detalhada do componente onde foi utilizado.
+Para a construção da UI foi utilizado a biblioteca MUI criada pela META;
+além da biblioteca alguns trechos foram criados utilizando a Styled-components que facilita a costumização mais detalhada do componente onde foi utilizado.
+O react-hook-form foi utilizado para a criação dos formulários
+e o yup para a validação dos dados do formulário.
 
