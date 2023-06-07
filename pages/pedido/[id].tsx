@@ -1,6 +1,6 @@
 import { useRouter } from "next/router"
 import React, { useEffect, useState } from "react"
-import Navbar from "../../src/lib/components/navbar/navbar"
+import Navbar from "../../src/blocks/navbar/navbar"
 
 export default function Pedido(props: any) {
     const router = useRouter()

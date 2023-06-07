@@ -1,5 +1,5 @@
 import DataTable from "../src/lib/components/dataTable/dataTable"
-import Navbar from "../src/lib/components/navbar/navbar"
+import Navbar from "../src/blocks/navbar/navbar"
 
 export default function AllOrders() {
     return (

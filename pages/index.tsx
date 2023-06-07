@@ -2,7 +2,7 @@ import Head from 'next/head'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 import React from 'react'
-import Navbar from '../src/lib/components/navbar/navbar'
+import Navbar from '../src/blocks/navbar/navbar'
 import Cards from '../src/lib/components/cards/cards'
 import BasicTable from '../src/lib/components/dataTable/basicTable'
 
