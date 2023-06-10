@@ -1,5 +1,6 @@
 import Navbar from "../src/blocks/navbar/navbar"
 import { Box } from "@mui/system"
+import GraphicBar from "../src/lib/components/graphics/graphicBar"
 
 export default function Indicator() {
 
@@ -15,7 +16,7 @@ export default function Indicator() {
                     height: '70vh'
                 }}>
 
-                    {/* <Graphic /> */}
+                    <GraphicBar />
                 </Box>
             </Navbar>
         </>
