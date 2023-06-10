@@ -1,3 +1,7 @@
+// https://github.com/apexcharts/react-apexcharts/issues/240
+import dynamic from 'next/dynamic';
+const ApexCharts = dynamic(() => import('react-apexcharts'), { ssr: false });
+
 import Chart from 'react-apexcharts';
 
 
@@ -33,7 +37,7 @@ export default function GraphicBar() {
 
     return (
         <>
-            <Chart
+            <ApexCharts
                 options={state.options}
                 series={state.series}
                 type="bar"
