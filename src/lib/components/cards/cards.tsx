@@ -17,8 +17,8 @@ export const Card = styled.div`
     align-items: center;
     justify-content: center;
    
-    height: 15vh;
-    width: 20vw;
+    min-height: 15vh;
+    min-width: 20vw;
     border-radius: 10px;
     box-shadow: 3px 3px 5px gray
 `

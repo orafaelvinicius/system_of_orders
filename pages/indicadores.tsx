@@ -1,4 +1,3 @@
-import Graphic from "../src/lib/components/graphics/graphic"
 import Navbar from "../src/blocks/navbar/navbar"
 import { Box } from "@mui/system"
 
@@ -16,7 +15,7 @@ export default function Indicator() {
                     height: '70vh'
                 }}>
 
-                    <Graphic />
+                    {/* <Graphic /> */}
                 </Box>
             </Navbar>
         </>

@@ -8,7 +8,7 @@ import { useState } from "react";
 
 type Inputs = {
     nome?: string,
-    telefone?: number,
+    telefone?: string,
     produto?: string,
     categoria?: string,
     status?: string,
@@ -38,7 +38,6 @@ const categoryInfo = [
     { id: 3, name: 'Alvenaria' }
 ]
 const statusInfo = [
-    { id: 0, name: '' },
     { id: 1, name: 'Entregue' },
     { id: 2, name: 'Pedido' },
     { id: 3, name: 'Em andamento' }
@@ -95,10 +94,12 @@ export default function NovoPedido() {
                 <BoxInput>
                     <label>Telefone:</label>
                     <Input placeholder="ex: 84988887777" {...register("telefone")} />
+                    {errors.telefone && <span>Digite o telefone do cliente</span>}
                 </BoxInput>
                 <BoxInput>
                     <label>Produto:</label>
                     <Input placeholder="ex: Torneira" {...register("produto")} />
+                    {errors.produto && <span>Digite o produto do pedido</span>}
                 </BoxInput>
                 <BoxInput>
                     <label>Categoria:</label>
@@ -117,7 +118,7 @@ export default function NovoPedido() {
                     </InputSelect>
                 </BoxInput>
 
-                <Button type="submit" variant="outlined" style={{ margin: '20px' }} >Enviar</Button>
+                <Button type="submit" variant="contained" style={{ margin: '20px' }} >Enviar</Button>
 
             </BoxForm>
 
