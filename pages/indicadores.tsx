@@ -11,7 +11,7 @@ export default function Indicator() {
                 <Box id='Box-indicator-page' style={{
                     display: 'flex',
                     justifyContent: 'center',
-                    alignItems: 'center',
+                    alignItems: 'flex-start',
                     width: '100vw',
                     height: '70vh'
                 }}>
